@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f2f2fa;
+  color: hsl(209, 61%, 16%);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+h4 {
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+
+.card {
+  width: 90vw;
+  margin: 4rem auto;
+  background: #ffffff;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s linear;
+
+}
+.card img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.card-1 {
+  max-width: 446px;
+  text-align: center;
+  padding-bottom: 3.5rem;
+}
+.card-1 header {
+  height: 197px;
+  background: url("./images/ocean.jpeg") center/cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+.card-1 img {
+  border: 5px solid #ffffff;
+  margin-top: -65px;
+  margin-bottom: 0.5rem;
+}
+.card-1 h4 {
+  font-size: 22px;
+}
+.card-1 p {
+  margin-bottom: 2rem;
+  font-size: 18px;
+  padding: 0 2rem;
+  color: hsl(209, 34%, 30%);
+}
+
+.btn {
+  padding: 1rem 2rem;
+  letter-spacing: 1.6px;
+  font-size: 1rem;
+  color: #ffffff;
+  background: #141f64;
+  border-radius: 0.25rem;
+  border-color: transparent;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.card:hover{
+  transform: scale(1.01);
+}
